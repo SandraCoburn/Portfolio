@@ -1,0 +1,17 @@
+@import "~antd/dist/antd.css";
+.navBar {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  font-size: medium;
+  position: fixed;
+  width: 100%;
+  margin-left: 0;
+}
+@media (max-width: 500px) {
+  .navbar {
+    position: absolute;
+    bottom: 0;
+    padding-top: 0;
+  }
+}
