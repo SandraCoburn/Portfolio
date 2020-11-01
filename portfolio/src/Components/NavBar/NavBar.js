@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { Menu } from "antd";
 import "./NavBar.css";
 import {
@@ -24,15 +25,13 @@ const NavBar = () => {
       theme="dark"
     >
       <Menu.Item key="home" icon={<HomeOutlined />}>
-        Home
+        <Link to="/">Home</Link>
       </Menu.Item>
       <Menu.Item key="portfolio" icon={<AppstoreOutlined />}>
-        Portfolio
+        <Link to="/portfolio">Portfolio</Link>
       </Menu.Item>
       <Menu.Item key="linkedIn" icon={<LinkedinOutlined />}>
-        <a href="https://www.linkedin.com/in/sandra-coburn/">
-          <span class="label">LinkedIn</span>
-        </a>
+        <a href="https://www.linkedin.com/in/sandra-coburn/">LinkedIn</a>
       </Menu.Item>
       <Menu.Item key="github" icon={<GithubOutlined />}>
         <a href="https://github.com/SandraCoburn">

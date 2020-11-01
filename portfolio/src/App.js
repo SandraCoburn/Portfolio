@@ -1,26 +1,31 @@
 import React from "react";
+
+import { Route, Redirect, Switch } from "react-router-dom";
+
+//components
 import NavBar from "./Components/NavBar/NavBar";
-import { Typography } from "antd";
-import Picture from "./assets/sandraProfile.jpg";
+import Home from "./Components/Home/Home";
+import ProjectList from "./Components/Projects/ProjectList";
 
+//styles
 import { GlobalStyle, Wrapper } from "./App.styles";
-
-const { Title } = Typography;
 
 function App() {
   return (
     <>
+      <GlobalStyle />
       <header>
         <NavBar />
       </header>
-      <GlobalStyle />
-
       <Wrapper>
-        <div className="container">
-          <Title level={1}>Sandra G Coburn</Title>
-          <img src={Picture} />
-          <Title level={1}>Full Stack Web Developer </Title>
-        </div>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/portfolio">
+            <ProjectList />
+          </Route>
+        </Switch>
       </Wrapper>
     </>
   );
