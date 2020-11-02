@@ -8,7 +8,7 @@ html {
 
 body {
     background-image: url(${BGImage});
-    background-size: cover;
+    // background-size: cover;
     margin: auto;
    
 }
