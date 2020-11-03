@@ -1,0 +1,22 @@
+@import "~antd/dist/antd.css";
+.App {
+  text-align: center;
+  background-image: url("./assets/DarkBlue.jpg");
+  box-sizing: border-box;
+  width: 100%;
+  color: white;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  padding: 10%;
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+}
+.container img {
+  width: 30%;
+  padding: 2%;
+  border-radius: 10%;
+  border: solid 4px black;
+}
