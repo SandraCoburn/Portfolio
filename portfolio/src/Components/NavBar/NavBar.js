@@ -1,18 +1,18 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { Menu } from "antd";
-import "./NavBar.css";
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { Menu } from 'antd';
+import './NavBar.css';
 import {
   AppstoreOutlined,
   HomeOutlined,
   LinkedinOutlined,
   GithubOutlined,
-} from "@ant-design/icons";
+} from '@ant-design/icons';
 
 const NavBar = () => {
-  const [current, setCurrent] = useState("mail");
+  const [current, setCurrent] = useState('mail');
   const handleClick = (e) => {
-    console.log("click ", e);
+    console.log('click ', e);
     setCurrent({ current: e.key });
   };
 
@@ -35,7 +35,7 @@ const NavBar = () => {
       </Menu.Item>
       <Menu.Item key="github" icon={<GithubOutlined />}>
         <a href="https://github.com/SandraCoburn">
-          <span class="label">Github</span>
+          <span className="label">Github</span>
         </a>
       </Menu.Item>
     </Menu>

@@ -1,8 +1,8 @@
-import React from "react";
-import { Col, Row } from "antd";
-import Project from "./Project";
-import { ListWrapper } from "./Project.styles";
-import { Projects } from "../../utils/projects";
+import React from 'react';
+import { Col, Row } from 'antd';
+import Project from './Project';
+import { ListWrapper } from './Project.styles';
+import { Projects } from '../../utils/projects';
 
 const ProjectList = () => {
   return (
@@ -11,10 +11,12 @@ const ProjectList = () => {
         return (
           <ListWrapper>
             <Project
+              key={idx}
               title={project.title}
-              url={project.url}
               description={project.description}
               details={project.participation}
+              url={project.url}
+              deployed={project.deployed}
               image={project.image}
             />
           </ListWrapper>

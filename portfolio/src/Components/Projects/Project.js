@@ -1,19 +1,24 @@
-import React from "react";
-import { Wrapper } from "./Project.styles";
+import React from 'react';
+import { Wrapper } from './Project.styles';
 
 const Project = (props) => {
   return (
     <Wrapper>
-      {/* <Card title="project" bordered={false} className="card"> */}
-      <h2>Project: {props.title}</h2>
-      <img src={props.image} />
+      <h2>{props.title}</h2>
       <p>
         <a href={props.url}>GitHub Link</a>
       </p>
-      <p>{props.description}</p>
-      <p>{props.details}</p>
+      <p>
+        <a href={props.deployed}>Deployed site</a>
+      </p>
 
-      {/* </Card> */}
+      <a href={props.url}>
+        <img className="grow" src={props.image} alt="project-visual" />
+      </a>
+
+      <p>{props.description}</p>
+      <p>Personal Contribution: </p>
+      <p>{props.details}</p>
     </Wrapper>
   );
 };
