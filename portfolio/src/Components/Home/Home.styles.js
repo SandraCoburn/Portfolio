@@ -2,8 +2,10 @@ import styled from 'styled-components';
 
 export const SkillsWrapper = styled.div`
   display: flex;
-  justify-content: space-evenly;
+  padding: 2%;
+  justify-content: space-around;
   @media screen and (max-widthl 500px) {
+    align-items: center;
     padding-left: 196px;
   }
 `;

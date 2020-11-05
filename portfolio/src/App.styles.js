@@ -58,18 +58,27 @@ export const Wrapper = styled.div`
     text-align: center;
   }
   @media screen and (max-width: 500px) {
+    .main-pic {
+      margin-left: 250px;
+      padding: 15%;
+    }
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 15%;
 
-    h1 {
+    h1,
+    h4 {
       margin-top: 5%;
       font-size: 1rem;
       font-weight: 200;
+      margin-left: 15%;
     }
   }
   @media screen and (max-width: 768px) {
+    .main-pic {
+      margin-left: 200px;
+    }
     h1 {
       margin-top: 5%;
       font-size: 1.5rem;
@@ -77,6 +86,9 @@ export const Wrapper = styled.div`
     }
   }
   @media screen and (max-width: 375px) {
+    .main-pic {
+      margin-left: 200px;
+    }
     h1 {
       margin-top: 5%;
       font-size: 1.5rem;
@@ -87,12 +99,10 @@ export const Wrapper = styled.div`
   }
   img {
     width: 30%;
+
+    overflow: hidden;
     padding: 2%;
     border-radius: 10%;
     border: solid 4px black;
-
-    @media screen and (max-width: 500px) {
-      width: 60%;
-    }
   }
 `;
