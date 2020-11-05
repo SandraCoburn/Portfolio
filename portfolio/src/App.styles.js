@@ -66,7 +66,7 @@ export const Wrapper = styled.div`
     width: auto;
     overflow: hidden;
     .main-pic {
-      margin-left: 250px;
+      margin-left: 25%;
     }
 
     justify-content: center;
@@ -78,9 +78,6 @@ export const Wrapper = styled.div`
     }
   }
   @media screen and (max-width: 768px) {
-    .main-pic {
-      margin-left: 200px;
-    }
     h1 {
       margin-top: 5%;
       font-size: 1.5rem;

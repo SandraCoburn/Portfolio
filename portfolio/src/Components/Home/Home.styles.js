@@ -4,10 +4,6 @@ export const SkillsWrapper = styled.div`
   display: flex;
   padding: 2%;
   justify-content: space-around;
-  @media screen and (max-widthl 500px) {
-    align-items: center;
-    padding-left: 196px;
-  }
 `;
 export const ImgWrapper = styled.div`
   width: 300px;
