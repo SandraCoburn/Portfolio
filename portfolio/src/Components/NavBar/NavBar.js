@@ -34,9 +34,7 @@ const NavBar = () => {
         <a href="https://www.linkedin.com/in/sandra-coburn/">LinkedIn</a>
       </Menu.Item>
       <Menu.Item key="github" icon={<GithubOutlined />}>
-        <a href="https://github.com/SandraCoburn">
-          <span className="label">Github</span>
-        </a>
+        <a href="https://github.com/SandraCoburn">Github</a>
       </Menu.Item>
     </Menu>
   );

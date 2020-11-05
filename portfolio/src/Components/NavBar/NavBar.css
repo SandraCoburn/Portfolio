@@ -1,4 +1,4 @@
-@import "~antd/dist/antd.css";
+@import '~antd/dist/antd.css';
 .navBar {
   display: flex;
   justify-content: center;
@@ -10,8 +10,11 @@
   opacity: 0.8;
   z-index: 400;
 }
+
 @media (max-width: 500px) {
   .navbar {
+    width: 40%;
+
     position: absolute;
     bottom: 0;
     padding-top: 0;

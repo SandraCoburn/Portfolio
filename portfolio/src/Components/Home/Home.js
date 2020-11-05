@@ -13,7 +13,9 @@ const Home = () => {
       <Title level={1}>Sandra G Coburn</Title>
       <Title level={4}>sandra.g.coburn@gmail.com</Title>
       <SkillsWrapper>
-        <img src={Picture} />
+        <div className="main-pic">
+          <img src={Picture} style={{ height: '300px', width: 300 }} />
+        </div>
         <Skills />
       </SkillsWrapper>
 
