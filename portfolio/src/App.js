@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 
-import { Route, Redirect, Switch } from "react-router-dom";
+import { Route, Redirect, Switch } from 'react-router-dom';
 
 //components
-import NavBar from "./Components/NavBar/NavBar";
-import Home from "./Components/Home/Home";
-import ProjectList from "./Components/Projects/ProjectList";
+import NavBar from './Components/NavBar/NavBar';
+import Home from './Components/Home/Home';
+import ProjectList from './Components/Projects/ProjectList';
 
 //styles
-import { GlobalStyle, Wrapper } from "./App.styles";
+import { GlobalStyle, Wrapper } from './App.styles';
 
 function App() {
   return (

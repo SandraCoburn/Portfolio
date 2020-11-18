@@ -5,6 +5,10 @@ export const SkillsWrapper = styled.div`
   padding: 2%;
   justify-content: space-around;
 `;
+export const AboutWrapper = styled.div`
+  text-alignment: center;
+  padding: 2%;
+`;
 export const ImgWrapper = styled.div`
   width: 300px;
   img {
