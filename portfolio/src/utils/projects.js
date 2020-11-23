@@ -4,6 +4,7 @@ import recipe from '../assets/projects-imgs/recipeBook.jpg';
 import story from '../assets/projects-imgs/story-squad.png';
 import plants from '../assets/projects-imgs/water-plants.jpg';
 import landingpage from '../assets/projects-imgs/familyrecipe.png';
+import chow from '../assets/projects-imgs/chow-expert.png';
 
 export const Projects = [
   {
@@ -17,9 +18,21 @@ export const Projects = [
     image: story,
   },
   {
+    title: 'Chow Expert Static Landing Page - UI',
+    description:
+      'Work in progress static page to remember a family member. Will continue to add more information and styling',
+
+    participation:
+      'A website sample project created mainly using HTML, Material Design Lite, CSS Grid and some Javascript. Deployed using GitHub pages.',
+
+    url: 'https://github.com/SandraCoburn/chow-expert',
+    deployed: 'https://sandracoburn.github.io/chow-expert/',
+    image: chow,
+  },
+  {
     title: 'Secret Family Recipe Landing Page - UI',
     description:
-      'A website project created by 5 web devopers where users could display and store family.',
+      'A website project created by 5 web devopers where users could display and store family recipes.',
     participation:
       'Designed and created the Landing page and About page for this project using html and LESS/CSS',
     url: 'https://github.com/SandraCoburn/Family-Recipes-UI',
