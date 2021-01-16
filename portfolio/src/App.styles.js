@@ -118,7 +118,7 @@ export const Wrapper = styled.div`
     text-align: left;
   }
   @media screen and (max-width: 500px) {
-    padding-top: 6%;
+    padding-top: 10%;
     width: auto;
     overflow: hidden;
     .main-pic {

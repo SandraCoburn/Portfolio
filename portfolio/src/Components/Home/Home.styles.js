@@ -109,6 +109,18 @@ export const StyledContainer = styled.div`
   .smoke ul li:nth-child(14) {
     animation-delay: 5.2s;
   }
+  @media screen and (max-width: 500px) {
+    justify-content: center;
+    .smoke {
+      top: 22%;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    justify-content: center;
+    .smoke {
+      top: 22%;
+    }
+  }
 `;
 
 export const SkillsWrapper = styled.div`
@@ -121,4 +133,11 @@ export const AboutWrapper = styled.div`
   margin-top: 14%;
   justify-content: start;
   padding: 2%;
+
+  @media screen and (max-width: 500px) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 `;

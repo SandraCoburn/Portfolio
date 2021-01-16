@@ -105,4 +105,41 @@ export const StyledCard = styled.div`
   .card:hover {
     padding-bottom: 152px;
   }
+  @media screen and (max-width: 500px) {
+    padding-top: 20%;
+    padding-right: 10%;
+    align-items: center;
+    margin: 3% 0;
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 2%;
+    }
+    .card {
+      margin: 2px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    width: 100%;
+    padding-top: 15%;
+
+    align-items: center;
+    margin: 3% 0;
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 2%;
+      margin: 5px;
+      width: 100%;
+    }
+    .card {
+      text-align: center;
+      margin: 8px;
+      width: 565px;
+      height: 250px;
+      margin: auto;
+    }
+  }
 `;
