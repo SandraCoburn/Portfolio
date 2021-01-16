@@ -4,7 +4,7 @@ import { Wrapper } from './Project.styles';
 const Project = (props) => {
   return (
     <Wrapper>
-      <h2>{props.title}</h2>
+      <h1>{props.title}</h1>
       <p>
         <a href={props.url}>GitHub Link</a>
       </p>
@@ -17,7 +17,9 @@ const Project = (props) => {
       </a>
 
       <p>{props.description}</p>
-      <p>Personal Contribution: </p>
+      <h5>
+        <strong>Personal Contribution:</strong>
+      </h5>
       <p>{props.details}</p>
     </Wrapper>
   );

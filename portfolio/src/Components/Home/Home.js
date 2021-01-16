@@ -3,25 +3,54 @@ import Picture from '../../assets/sandraProfile.jpg';
 import Footer from './Footer';
 
 import { Typography } from 'antd';
-import { SkillsWrapper, AboutWrapper } from './Home.styles';
+import { SkillsWrapper, AboutWrapper, StyledContainer } from './Home.styles';
 
 import Skills from './Skills';
+import SkillsCard from './SkillsCard';
 const { Title } = Typography;
 
 const Home = () => {
   return (
-    <div className="container">
-      <Title level={1}>Sandra G Coburn</Title>
-      <Title level={4}>sandra.g.coburn@gmail.com</Title>
-      <SkillsWrapper>
-        <div className="main-pic">
-          <img src={Picture} style={{ height: '300px', width: 300 }} />
-        </div>
-        <Skills />
-      </SkillsWrapper>
+    <StyledContainer>
+      <div className="smoke">
+        <ul>
+          <li>
+            <img
+              src={Picture}
+              style={{ height: '150px', width: 150 }}
+              alt="Sandra Coburn"
+            />
+          </li>
+          <li>S</li>
+          <li>A</li>
+          <li>N</li>
+          <li>D</li>
+          <li>R</li>
+          <li>A</li>
+          <li>
+            <img
+              id="react"
+              alt="React"
+              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
+            />
+          </li>
+          <li>C</li>
+          <li>O</li>
+          <li>B</li>
+          <li>U</li>
+          <li>R</li>
+          <li>N</li>
+        </ul>
+      </div>
+      <Title level={2}>Full Stack Web Developer </Title>
+      <Title level={4}>
+        <a href="mailto:sandra.g.coburn@gmail.com">sandra.g.coburn@gmail.com</a>
+      </Title>
 
-      <Title level={1}>Full Stack Web Developer </Title>
       <AboutWrapper>
+        <SkillsCard />
+        <hr />
+        <h2>About Me</h2>
         <h4>
           Years ago I wanted to be an elementary school teacher. I loved kids
           and thought teaching was my calling. While in college I had to take an
@@ -37,7 +66,7 @@ const Home = () => {
         </h4>
       </AboutWrapper>
       <Footer />
-    </div>
+    </StyledContainer>
   );
 };
 export default Home;

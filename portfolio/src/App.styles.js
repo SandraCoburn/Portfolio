@@ -3,11 +3,13 @@ import BGImage from './assets/DarkBlue.jpg';
 
 export const GlobalStyle = createGlobalStyle`
 html {
-    height: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-    background-image: url(${BGImage});
+  background: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -24,7 +26,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10%;
+  padding: 5%;
 
   .navBar {
     font-size: 0;
@@ -87,7 +89,7 @@ export const Wrapper = styled.div`
   .copyright li:first-child {
     margin-top: 0;
   }
-  h1 {
+  h2 {
     font-family: Playfair, 'Arial Narrow Bold', sans-serif;
     background-image: linear-gradient(180deg, #fff, #87f1ff);
     background-size: 100%;
@@ -97,7 +99,7 @@ export const Wrapper = styled.div`
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
     filter: drop-shadow(2px 2px #0085a3);
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: 400;
     text-align: center;
   }
@@ -111,9 +113,9 @@ export const Wrapper = styled.div`
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
     filter: drop-shadow(2px 2px #0085a3);
-    font-size: 1rem;
-    font-weight: 200;
-    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 100;
+    text-align: left;
   }
   @media screen and (max-width: 500px) {
     padding-top: 6%;
@@ -160,12 +162,5 @@ export const Wrapper = styled.div`
     }
     display: flex;
     align-items: center;
-  }
-  img {
-    width: 30%;
-    overflow: hidden;
-    padding: 2%;
-    border-radius: 10%;
-    border: solid 4px black;
   }
 `;

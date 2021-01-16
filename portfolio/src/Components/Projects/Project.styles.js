@@ -1,6 +1,13 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
+  img {
+    width: 30%;
+    overflow: hidden;
+    padding: 2%;
+    border-radius: 10%;
+    border: 2px solid #000;
+  }
   width: 450px;
 
   background: #ebfeff;
@@ -13,10 +20,13 @@ export const Wrapper = styled.div`
   p {
     font-size: 0.75rem;
   }
+  h5 {
+    font-size: 1.1rem;
+  }
   .grow:hover {
-    -webkit-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    transform: scale(1.9);
+    -webkit-transform: scale(3.5);
+    -ms-transform: scale(3.5);
+    transform: scale(3.9);
   }
 `;
 export const ListWrapper = styled.div`
