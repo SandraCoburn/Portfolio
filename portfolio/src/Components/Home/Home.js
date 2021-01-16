@@ -57,12 +57,38 @@ const Home = () => {
           elective class and thought Intro to computers would do. Oh man! I got
           hooked. I wanted to learn more so I changed my major to Computer
           Information Systems. Favorite classes were Web Design and Javascript.
-          Took a break to raise my kids and now I'm back! I still love Web
-          Design and Javascript but when I discovered React and the concept of
-          Single Page Applications, I was blown away. And of course learning
-          NodeJS and express to build the backend was amazing. I am learning
-          Typescript right now and I am loving it. I can't wait to see what else
-          I will get my hands into.{' '}
+          After getting my AA I Took a break to raise my kids and now I'm back!
+          I still love Web Design and Javascript but when I discovered React and
+          the concept of Single Page Applications, I was blown away. And of
+          course learning NodeJS and express to build the backend was amazing. I
+          am learning Typescript right now and I am loving it. I can't wait to
+          see what else I will get my hands into!
+        </h4>
+        <h4>
+          For many years I have volunteer in organizations where I've developed
+          my interpersonal skills. Volunteer positions gave me the opportunity
+          to interact with different types of people with different backgrounds
+          and different mind sets. Planning activities involving several groups
+          can be challenging but working on keeping everybody focused and
+          motivated have sharpened my planning, leadership and communication's
+          skills. I've practiced planning with the end results in mind but also
+          being open minded about improvising and changing routes when things
+          don’t work out following the original plan. All these skills will be
+          useful when working in a team as a developer.
+        </h4>
+        <h4>
+          Interpersonal skills:
+          <ul>
+            <li>Self-Confidence </li>
+            <li> Work Ethic</li>
+            <li> Relationship Management</li>
+            <li> Receptiveness to Feedback </li>
+            <li>Body Language </li>
+            <li>Listening</li>
+            <li>Collaboration</li>
+            <li> Conflict Management</li>
+            <li> Positive Attitude</li>
+          </ul>
         </h4>
       </AboutWrapper>
       <Footer />
