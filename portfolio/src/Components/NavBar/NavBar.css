@@ -13,8 +13,8 @@
 
 @media (max-width: 500px) {
   .navbar {
-    width: 40%;
-
+    font-size: 0;
+    padding: 0;
     position: absolute;
     bottom: 0;
     padding-top: 0;

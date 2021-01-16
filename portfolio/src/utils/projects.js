@@ -4,6 +4,8 @@ import recipe from '../assets/projects-imgs/recipeBook.jpg';
 import story from '../assets/projects-imgs/story-squad.png';
 import plants from '../assets/projects-imgs/water-plants.jpg';
 import landingpage from '../assets/projects-imgs/familyrecipe.png';
+import chow from '../assets/projects-imgs/chow-expert.png';
+import portfolio from '../assets/projects-imgs/portfolio.png';
 
 export const Projects = [
   {
@@ -17,11 +19,34 @@ export const Projects = [
     image: story,
   },
   {
+    title: 'Chow Expert Static Landing Page - UI',
+    description:
+      'Work in progress static page to remember a family member. Will continue to add more information and styling',
+
+    participation:
+      'A website sample project created mainly using HTML, Material Design Lite, CSS Grid and some Javascript. Deployed using GitHub pages.',
+
+    url: 'https://github.com/SandraCoburn/chow-expert',
+    deployed: 'https://sandracoburn.github.io/chow-expert/',
+    image: chow,
+  },
+  {
+    title: 'Portfolio Website',
+    description: 'This portfolio website displayin projects samples.',
+
+    participation:
+      'Plan and designed page using React, AntD, Styled components. Deployed using Netlify services.',
+
+    url: 'https://www.sandracwebdeveloper.com/',
+    deployed: 'https://github.com/SandraCoburn/Portfolio',
+    image: portfolio,
+  },
+  {
     title: 'Secret Family Recipe Landing Page - UI',
     description:
-      'A website project created by 5 web devopers where users could display and store family.',
+      'A website project created by 5 web devopers where users could display and store family recipes.',
     participation:
-      'Designed and created the Landing page and About page for this project using html and LESS/CSS',
+      'Designed and created the Landing page and About page using html and LESS/CSS',
     url: 'https://github.com/SandraCoburn/Family-Recipes-UI',
     deployed: 'https://sandracoburn.github.io/Family-Recipes-UI/',
     image: landingpage,
@@ -42,7 +67,7 @@ export const Projects = [
     description:
       'An App where the user can register, log in and create water schedules for their plants. ',
     participation:
-      'Helped create the frontend using React, React Router with protected routes, axios, useState and useFoorm hooks. Yup to validate forms. Frontend pulls and sends data to a backend API created with Node.js and Express. Deployed frontend using Vercel services',
+      'Helped create the frontend using React, React Router with protected routes, axios, useState and useForm hooks. Yup to validate forms. Frontend pulls and sends data to a backend API created with Node.js and Express. Deployed frontend using Vercel services',
     url: 'https://github.com/WaterMyPlants3/front-end',
     deployed: 'https://water-my-plants-web26.netlify.app/',
     image: plants,

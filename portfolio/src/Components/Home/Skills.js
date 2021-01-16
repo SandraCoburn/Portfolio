@@ -1,9 +1,8 @@
 import React from 'react';
-import { ImgWrapper } from './Home.styles';
 
 const Skills = () => {
   return (
-    <ImgWrapper>
+    <>
       <img
         align="left"
         alt="Visual Studio Code"
@@ -25,7 +24,7 @@ const Skills = () => {
       <img
         align="left"
         alt="JavaScript"
-        width="26px"
+        width="16px"
         src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
       />
       <img
@@ -58,7 +57,7 @@ const Skills = () => {
         width="26px"
         src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"
       />
-    </ImgWrapper>
+    </>
   );
 };
 export default Skills;

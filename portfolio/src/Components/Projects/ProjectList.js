@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row } from 'antd';
+import { Row } from 'antd';
 import Project from './Project';
 import { ListWrapper } from './Project.styles';
 import { Projects } from '../../utils/projects';
