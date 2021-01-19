@@ -6,8 +6,19 @@ import plants from '../assets/projects-imgs/water-plants.jpg';
 import landingpage from '../assets/projects-imgs/familyrecipe.png';
 import chow from '../assets/projects-imgs/chow-expert.png';
 import portfolio from '../assets/projects-imgs/portfolio.png';
+import bakery from '../assets/projects-imgs/midnight-bakery.png';
 
 export const Projects = [
+  {
+    title: 'Midnight Bakery',
+    description:
+      'A work in progress bakery website for a friend. She bakes at night and makes the most wonderful cakes and cookies. We are planning to make this website fully operational soon.',
+    participation:
+      'Built using ReactJS, Vanilla CSS, React Reveal, Redux, MongoDB, NodeJS, Express. Deployed with Heroku services using mongodb cloud services for database.',
+    url: 'https://github.com/SandraCoburn/bakery-shopping',
+    deployed: 'https://bakery-shopping-test.herokuapp.com',
+    image: bakery,
+  },
   {
     title: 'Story Squad - Front End',
     description:
