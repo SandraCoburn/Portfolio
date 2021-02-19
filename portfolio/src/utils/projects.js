@@ -12,7 +12,7 @@ export const Projects = [
   {
     title: 'Midnight Bakery',
     description:
-      'A work in progress bakery website for a friend. She bakes at night and makes the most wonderful cakes and cookies. We are planning to make this website fully operational soon.',
+      'A work in progress website I am building for a friend. She bakes at night and makes the most wonderful cakes and cookies. We are planning to make this website fully operational where users can select a cake, order and pay online',
     participation:
       'Built using ReactJS, Vanilla CSS, React Reveal, Redux, MongoDB, NodeJS, Express. Deployed with Heroku services using mongodb cloud services for database.',
     url: 'https://github.com/SandraCoburn/bakery-shopping',
@@ -43,10 +43,10 @@ export const Projects = [
   },
   {
     title: 'Portfolio Website',
-    description: 'This portfolio website displayin projects samples.',
+    description: 'This portfolio website displaying projects samples.',
 
     participation:
-      'Plan and designed page using React, AntD, Styled components. Deployed using Netlify services.',
+      'Plan and designed website using React, AntD, Styled components. Deployed using Netlify services.',
 
     url: 'https://www.sandracwebdeveloper.com/',
     deployed: 'https://github.com/SandraCoburn/Portfolio',
@@ -55,7 +55,7 @@ export const Projects = [
   {
     title: 'Secret Family Recipe Landing Page - UI',
     description:
-      'A website project created by 5 web devopers where users could display and store family recipes.',
+      'A website project created by 5 web devopers where users would be able to display and store family recipes.',
     participation:
       'Designed and created the Landing page and About page using html and LESS/CSS',
     url: 'https://github.com/SandraCoburn/Family-Recipes-UI',

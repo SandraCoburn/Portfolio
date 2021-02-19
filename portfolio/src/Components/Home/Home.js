@@ -52,43 +52,36 @@ const Home = () => {
         <hr />
         <h2>About Me</h2>
         <h4>
-          Years ago I wanted to be an elementary school teacher. I loved kids
-          and thought teaching was my calling. While in college I had to take an
-          elective class and thought Intro to computers would do. Oh man! I got
-          hooked. I wanted to learn more so I changed my major to Computer
-          Information Systems. Favorite classes were Web Design and Javascript.
-          After getting my AA I Took a break to raise my kids and now I'm back!
-          I still love Web Design and Javascript but when I discovered React and
-          the concept of Single Page Applications, I was blown away. And of
-          course learning NodeJS and express to build the backend was amazing. I
-          am learning Typescript right now and I am loving it. I can't wait to
+          Years ago I wanted to become an elementary school teacher. I loved
+          kids and thought teaching was my calling. In college I had to choose
+          one elective class and thought Intro to computers and Web Desing would
+          do. Oh man! I got hooked. I wanted to learn more so I changed my major
+          to Computer Information Systems. Favorite classes were Web Design and
+          Javascript but enjoyed network administration classes as well. After
+          getting out of college other priorities kept me out of the tech
+          industry. I can finally say I'm back to one of my passions. I
+          refreshed my computer skills by attending a 9 month program focused on
+          Full Stack web development. I still love Web Design and Javascript but
+          learning React and the concept of Single Page Applications made me
+          realize how fun and effective this industry has become. Larning NodeJS
+          and express to build backend APIs was also amazing. I am learning
+          Typescript and Graphql right now and I am loving it. I can't wait to
           see what else I will get my hands into!
         </h4>
         <h4>
-          For many years I have volunteer in organizations where I've developed
-          my interpersonal skills. Volunteer positions gave me the opportunity
-          to interact with different types of people with different backgrounds
+          For many years I have volunteered in several organizations helping me
+          sharpen my interpersonal skills. Volunteer positions gave me the
+          opportunity to interact with many people with different backgrounds
           and different mind sets. Planning activities involving several groups
           can be challenging but working on keeping everybody focused and
-          motivated have sharpened my planning, leadership and communication's
-          skills. I've practiced planning with the end results in mind but also
-          being open minded about improvising and changing routes when things
-          don’t work out following the original plan. All these skills will be
-          useful when working in a team as a developer.
-        </h4>
-        <h4>
-          Interpersonal skills:
-          <ul>
-            <li>Self-Confidence </li>
-            <li> Work Ethic</li>
-            <li> Relationship Management</li>
-            <li> Receptiveness to Feedback </li>
-            <li>Body Language </li>
-            <li>Listening</li>
-            <li>Collaboration</li>
-            <li> Conflict Management</li>
-            <li> Positive Attitude</li>
-          </ul>
+          motivated have refined my planning, leadership and communication
+          skills. Success come from planning with the end results in mind but
+          also being open minded about improvising and changing routes when
+          things don’t work as planned. I can't wait to share all my skills with
+          my team on my dream job. I would love to work for a company that
+          values individuality, hard work and stretches their employees to be
+          the best we can be. I truly believe that the succes of a company is
+          the result of a team of positive, caring and productive employees.
         </h4>
       </AboutWrapper>
       <Footer />
