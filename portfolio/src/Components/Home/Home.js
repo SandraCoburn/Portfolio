@@ -3,9 +3,8 @@ import Picture from '../../assets/sandraProfile.jpg';
 import Footer from './Footer';
 
 import { Typography } from 'antd';
-import { SkillsWrapper, AboutWrapper, StyledContainer } from './Home.styles';
+import { AboutWrapper, StyledContainer } from './Home.styles';
 
-import Skills from './Skills';
 import SkillsCard from './SkillsCard';
 const { Title } = Typography;
 

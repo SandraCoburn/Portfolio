@@ -133,6 +133,9 @@ export const AboutWrapper = styled.div`
   margin-top: 14%;
   justify-content: start;
   padding: 2%;
+  h4 {
+    color: white;
+  }
 
   @media screen and (max-width: 500px) {
     width: 100%;
