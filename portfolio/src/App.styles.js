@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background: #000;
+  background: lightgray;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -105,7 +105,8 @@ export const Wrapper = styled.div`
   }
   h4 {
     font-family: Playfair, 'Arial Narrow Bold', sans-serif;
-    background-image: linear-gradient(180deg, #fff, #87f1ff);
+    color: #1f2833;
+    /* background-image: linear-gradient(180deg, #fff, #87f1ff);
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
@@ -115,7 +116,7 @@ export const Wrapper = styled.div`
     filter: drop-shadow(2px 2px #0085a3);
     font-size: 0.9rem;
     font-weight: 100;
-    text-align: left;
+    text-align: left; */
   }
   @media screen and (max-width: 500px) {
     padding-top: 10%;
