@@ -18,7 +18,7 @@ const SkillsCard = () => {
           <p>Great team player</p>
           <p>
             Commited to finding the best solution and delivering quality code.
-            Researches and learn new technologies on own time
+            Researches and learns new technologies on own time
           </p>
 
           <div className="corner">
