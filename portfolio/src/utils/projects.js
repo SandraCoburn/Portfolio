@@ -34,7 +34,7 @@ export const Projects = [
   {
     title: 'Ecommerce Store Sample',
     description:
-      'Sample eccomerce store built with React, Redux, React router, GraphQL. Used Firebase for login. Integrated Stripe for payments. Deployed to Heroku cloud platform.',
+      'Sample eccomerce store built with React, Redux, React router, GraphQL. LESS to style components. Used Firebase for login. Integrated Stripe for payments. Deployed to Heroku cloud platform.',
     participation:
       'Followed a tutorial to build app. Wrote documentation using Markdown markup language. Deployed to Heroku.',
     url: 'https://github.com/SandraCoburn/ecommerce-store-sample',

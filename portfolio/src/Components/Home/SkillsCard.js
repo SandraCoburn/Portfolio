@@ -8,14 +8,18 @@ const SkillsCard = () => {
         <div className="card">
           <h5>Front End Development Skills</h5>
 
-          <p>Experience with HTML5, CSS3. ReactJS, Redux, JavaScript</p>
+          <p>
+            Experience with JavaScript, HTML5, ReactJS, Redux, Redux Toolkit,
+            NextJS, Typescript, CSS, LESS, SASS, Styled Components, Bootstrap,
+            Ant Design and Material UI
+          </p>
           <p>Jira, Confluence, GitHub, GitLab, Whimsical, Figma</p>
 
           <p>Great team player</p>
           <p>
-            Commited to finding the best solution and delivering quality code
+            Commited to finding the best solution and delivering quality code.
+            Researches and learn new technologies on own time
           </p>
-          <p>Researches and learn new technologies on own time</p>
 
           <div className="corner">
             <span className="arrow">{'->'}</span>
@@ -71,13 +75,14 @@ const SkillsCard = () => {
         </div>
         <div className="card">
           <h5>Back End Development Skills</h5>
+          <p>
+            Experience with NodeJS, Express, JWT, MongoDB, Sqlite3, SQL, JSON,
+            GraphQL, Phython
+          </p>
           <p>Reliable and focused on completing commited tasks</p>
           <p>Strong understanding of client/server model</p>
           <p>RESTfull API's</p>
-          <p>
-            Experience with NodeJS, Express, MongoDB, Sqlite3, SQL, JSON,
-            Phython
-          </p>
+
           <div className="corner">
             <span className="arrow">{'->'}</span>
           </div>
