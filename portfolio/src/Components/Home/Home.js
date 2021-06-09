@@ -1,5 +1,5 @@
 import React from 'react';
-import Picture from '../../assets/sandraProfile.jpg';
+import Picture from '../../assets/projects-imgs/sandraProfile.jpg';
 import Footer from './Footer';
 
 import { Typography } from 'antd';

@@ -7,6 +7,7 @@ import landingpage from '../assets/projects-imgs/familyrecipe.png';
 import chow from '../assets/projects-imgs/chow-expert.png';
 import portfolio from '../assets/projects-imgs/portfolio.png';
 import bakery from '../assets/projects-imgs/midnight-bakery.png';
+import ecommerce from '../assets/projects-imgs/ecommerce.jpeg';
 
 export const Projects = [
   {
@@ -19,15 +20,26 @@ export const Projects = [
     deployed: 'https://bakery-shopping-test.herokuapp.com',
     image: bakery,
   },
+
   {
     title: 'Story Squad - Front End',
     description:
-      'A custom, serialized novel geared toward children in 3rd-6th grade. Children read a story, get a prompt to invite them to handwrite and draw part of the story then upload it to a database where it will be analyzed to match them up with same level story tellers.',
+      'A custom, serialized novel geared toward children in 3rd-6th grade. Children read a story, get a prompt to invite them to handwrite and draw part of the story then upload it to a database where it will be analyzed to match them up with same level story tellers. Created by a team of one UX Designer, 3 Data Scientists and 5 Full Stack Engineers.',
     participation:
-      'Created and styled React components to build the Front End UI using Ant Design, Redux, Axios, LESS and Jest for unit testing. Wrote the frontend documentation using Markdown markup language',
-    url: 'https://github.com/Lambda-School-Labs/story-squad-fe-b',
-    deployed: 'https://b.storysquad.dev/',
+      'Created and styled some of the React components to build the Front End UI for version 2.0 using Ant Design, Redux, Axios, LESS and Jest for unit testing. Wrote the frontend documentation using Markdown markup language',
+    url: 'https://github.com/SandraCoburn/story-squad-fe-b',
+    deployed: 'https://contest.storysquad.app/',
     image: story,
+  },
+  {
+    title: 'Ecommerce Store Sample',
+    description:
+      'Sample eccomerce store built with React, Redux, React router, GraphQL. Used Firebase for login. Integrated Stripe for payments. Deployed to Heroku cloud platform.',
+    participation:
+      'Followed a tutorial to build app. Wrote documentation using Markdown markup language. Deployed to Heroku.',
+    url: 'https://github.com/SandraCoburn/ecommerce-store-sample',
+    deployed: 'https://ecommerce-store-sample.herokuapp.com/',
+    image: ecommerce,
   },
   {
     title: 'Chow Expert Static Landing Page - UI',
@@ -43,10 +55,10 @@ export const Projects = [
   },
   {
     title: 'Portfolio Website',
-    description: 'This portfolio website displaying projects samples.',
+    description: 'This portfolio website to diplay projects samples.',
 
     participation:
-      'Plan and designed website using React, AntD, Styled components. Deployed using Netlify services.',
+      'Planned and designed Portfolio website using React, AntD, Styled components. Deployed using Netlify services.',
 
     url: 'https://www.sandracwebdeveloper.com/',
     deployed: 'https://github.com/SandraCoburn/Portfolio',
@@ -78,7 +90,7 @@ export const Projects = [
     description:
       'An App where the user can register, log in and create water schedules for their plants. ',
     participation:
-      'Helped create the frontend using React, React Router with protected routes, axios, useState and useForm hooks. Yup to validate forms. Frontend pulls and sends data to a backend API created with Node.js and Express. Deployed frontend using Vercel services',
+      'Helped create the frontend using React, React Router with protected routes, axios, useState and useForm hooks. Yup to validate forms. Frontend integrated with backend API created with Node.js and Express. Deployed frontend using Vercel services',
     url: 'https://github.com/WaterMyPlants3/front-end',
     deployed: 'https://water-my-plants-web26.netlify.app/',
     image: plants,
