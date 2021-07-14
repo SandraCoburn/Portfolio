@@ -76,8 +76,8 @@ const SkillsCard = () => {
         <div className="card">
           <h5>Back End Development Skills</h5>
           <p>
-            Experience with NodeJS, Express, JWT, MongoDB, Sqlite3, SQL, JSON,
-            GraphQL, Phython
+            Experience with NodeJS, Express, JWT, MongoDB, Sqlite3, PostgreSQL,
+            SQL, JSON, GraphQL, Python, Learning Django right now
           </p>
           <p>Reliable and focused on completing commited tasks</p>
           <p>Strong understanding of client/server model</p>

@@ -60,8 +60,8 @@ export const Projects = [
     participation:
       'Planned and designed Portfolio website using React, AntD, Styled components. Deployed using Netlify services.',
 
-    url: 'https://www.sandracwebdeveloper.com/',
-    deployed: 'https://github.com/SandraCoburn/Portfolio',
+    url: 'https://github.com/SandraCoburn/Portfolio',
+    deployed: 'https://www.sandracwebdeveloper.com/',
     image: portfolio,
   },
   {
